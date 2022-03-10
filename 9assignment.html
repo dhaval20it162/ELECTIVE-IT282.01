@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body{
+            padding: 30px;
+            margin-left: 300px;
+            margin-right: 300px;
+            background-color: gray;
+        }
+        h1 {
+            margin: auto;
+            text-align: center;
+            background-color: darkgray;
+        }
+        h3 {
+            background-color: rgba(169, 169, 169, 0.959);
+            text-align: center;
+        }
+        input[type="text"], input[type="number"], input[type="email"], textarea {
+            padding: 10px;
+            width: 98%;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="">
+
+        <!-- Name -->
+        <h3>Personal Details:</h3>
+
+        <label for="">Name :</label><br><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Gender : </label><br><br>  
+        <input type="radio" name="male"/> Male <br><br>  
+        <input type="radio" name="female"/> Female <br><br>  
+        <input type="radio" name="other"/> Other<br><br>
+
+        Date of Birth : <input type="date" name="dob" id="dob">
+        <br><br>
+
+        <!-- Address -->
+        <h3>Address:</h3>
+
+        <label for="address">Address : </label><br><br>
+        <textarea name="address" id="" cols="30" rows="10"></textarea><br><br>
+
+        <label for="city">City : </label><br><br>
+        <input type="text" name="city" id="city"><br><br>
+        
+        <label for="pincode">Pin Code : </label><br><br>
+        <input type="number" name="pincode" id="pincode"><br><br>
+        
+        <label for="state">State : </label><br><br>
+        <input type="text" name="state" id="state"><br><br>
+        <br><br>
+
+        <!-- Contact Details -->
+        <h3>Contact Details:</h3>
+
+        <label for="mobilenumber">Mobile Number : </label><br><br>
+        <input type="number" name="mobilenumber" id="mobilenumber"><br><br>
+
+        <label for="parentmobilenumber">Parent's Mobile Number : </label><br><br>
+        <input type="number" name="parentmobilenumber" id="parentmobilenumber"><br><br>
+
+        <label for="emailadd">Student E-mail Address : </label><br><br>
+        <input type="email" name="emailadd" id="emailadd"><br><br>
+
+        <label for="parentemailadd">Parent's E-mail Address : </label><br><br>
+        <input type="email" name="parentemailadd" id="parentemailadd"><br><br>
+        <br><br>
+
+        <!-- School Details -->
+        <h3>School Details:</h3>
+
+        <label for="highschoolname">High School Name : </label><br><br>
+        <input type="text" name="highschoolname" id="highschoolname"><br><br>
+
+        <label for="highschoolcity">City : </label><br><br>
+        <input type="text" name="highschoolcity" id="highschoolcity"><br><br>
+
+        <label for="highschoolpin">Pin Code : </label><br><br>
+        <input type="number" name="highschoolpin" id="highschoolpin"><br><br>
+
+        <label for="highschoolstate">State : </label><br><br>
+        <input type="text" name="highschoolstate" id="highschoolstate"><br><br>
+
+        Score : <br><br>
+        10th standerd : <input type="number" name="tenscore" id="tenscore">
+        <br><br>
+        12th standerd : <input type="number" name="twelthscore" id="twelthscore">
+        <br><br><br>
+
+        <!-- Submit -->
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
